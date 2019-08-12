@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4d35b27-3310-4d16-802e-441ab14f0394" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" />
-    </list>
+    <list default="true" id="b4d35b27-3310-4d16-802e-441ab14f0394" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -323,12 +320,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565491311858</updated>
       <workItem from="1565491314178" duration="610000" />
-      <workItem from="1565574889792" duration="15579000" />
+      <workItem from="1565574889792" duration="15878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16189000" />
+    <option name="totallyTimeSpent" value="16488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
