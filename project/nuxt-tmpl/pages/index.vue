@@ -9,14 +9,19 @@
 </template>
 
 <script>
-
 	export default {
 		components: {
 
 		}
 	}
+	
 </script>
 
-<style>
-
+<style lang='scss' scoped>
+  /*@import "../assets/css/index.scss";*/
+ ul{
+   li{
+     font-size: 0.2rem;
+   }
+ }
 </style>
