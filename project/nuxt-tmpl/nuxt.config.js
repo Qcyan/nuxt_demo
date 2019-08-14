@@ -15,7 +15,11 @@ module.exports = {
   css: ['@/assets/css/index.scss'],
   plugins: [
     // '@/plugins/element-ui',
-    '@/plugins/main'
+    '@/plugins/main',
+    // {
+    //   src: "~/plugins/axios",
+    //   ssr: false
+    // },
   ],
   build: {
     /*
@@ -23,7 +27,25 @@ module.exports = {
     */
     extend (config, ctx) {
     }
+  },
+
+  modules: [ '@nuxtjs/axios', '@nuxtjs/proxy' ], // 不需要加入@nuxtjs/proxy
+  axios: {
+    proxy: true,
+    prefix: '/api', // baseURL
+    credentials: true,
+  },
+  proxy: {
+    '/': {
+      // target: 'https://pc.lifest.dtb315.cn', // 代理地址
+      target: 'http://127.0.0.1:8080', // 代理地址
+      changeOrigin: true,
+      // pathRewrite: {
+      //   '^/api': ''
+      // },
+    },
   }
+
 }
 
 

@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b4d35b27-3310-4d16-802e-441ab14f0394" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/rem.scss" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/rem.scss" />
+      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js" />
       <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/package-lock.json" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/package.json" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/package.json" />
       <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js" afterPath="$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js" />
+      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/plugins/README.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/axios/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="98" column="8" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="98" selection-end-column="8" />
+            <state relative-caret-position="360">
+              <caret line="90" column="32" lean-forward="false" selection-start-line="81" selection-start-column="3" selection-end-line="98" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -34,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="axios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/plugins/axios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -47,8 +56,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -69,8 +78,8 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="-340">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -129,14 +138,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/config.scss" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/reset.scss" />
-        <option value="$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js" />
-        <option value="$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/axios/config.js" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/rem.scss" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/component.scss" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/index.scss" />
-        <option value="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" />
         <option value="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/axios/index.js" />
+        <option value="$PROJECT_DIR$/project/nuxt-tmpl/plugins/axios.js" />
+        <option value="$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js" />
+        <option value="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" />
+        <option value="$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js" />
       </list>
     </option>
   </component>
@@ -156,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="535" />
-    <option name="y" value="64" />
+    <option name="x" value="233" />
+    <option name="y" value="279" />
     <option name="width" value="1513" />
     <option name="height" value="890" />
   </component>
@@ -347,24 +357,25 @@
       <updated>1565491311858</updated>
       <workItem from="1565491314178" duration="610000" />
       <workItem from="1565574889792" duration="23599000" />
-      <workItem from="1565746308955" duration="6383000" />
+      <workItem from="1565746308955" duration="10362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30592000" />
+    <option name="totallyTimeSpent" value="34571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="535" y="64" width="1513" height="890" extended-state="0" />
+    <frame x="233" y="279" width="1513" height="890" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305084" sideWeight="0.4880435" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305084" sideWeight="0.48237884" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.397878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16332982" sideWeight="0.5119565" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.397878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18305084" sideWeight="0.51762116" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -388,14 +399,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nuxt_demo/.nuxt/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3141">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuxt_demo/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -697,36 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/nuxt-ssr-demo/pages/books.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -741,13 +718,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/axios/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="98" column="8" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="98" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="90" column="32" lean-forward="false" selection-start-line="81" selection-start-column="3" selection-end-line="98" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/plugins/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

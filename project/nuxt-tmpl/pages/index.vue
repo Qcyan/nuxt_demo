@@ -12,19 +12,24 @@
 
 <script>
 	export default {
+    asyncData ({ app }) {
+      console.log(app.$axios);
+      app.$axios.post('api/live_line/index').then((res) => {
+        console.log(res)
+      })
+    },
 		components: {
 
 		},
     methods:{
       getDta(){
-        this.$axios.post('api/live_line/index').then((res) => {
-          console.log(res)
-        })
+      
       }
     }
 	}
 	
 </script>
+
 
 <style lang='scss' scoped>
   /*@import "../assets/css/index.scss";*/
