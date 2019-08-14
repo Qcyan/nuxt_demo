@@ -7,7 +7,7 @@ $UI-width:375px;
 @for $device-width from 1px through 2000px {
   @media (min-width:$device-width){
     html{
-      font-size: $device-width * $rem-base-font-size / $UI-width !important;
+      font-size: $device-width * $rem-base-font-size / $UI-width ;
     }
   }
 }
