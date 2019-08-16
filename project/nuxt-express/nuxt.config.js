@@ -1,6 +1,6 @@
 
 module.exports = {
-  // mode: 'universal ',
+  mode: 'history',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -36,18 +36,17 @@ module.exports = {
     // prefix: '/api', // baseURL
     // credentials: true,
   },
-    //根据环境配置相关代理
-    // open: false,
-    proxy: {
-      '/': {
-        // ws: false,      //避免把hot代理了
-        target: 'https://pc.lifest.dtb315.cn',
-        // changeOrigin: true,
-        // pathRewrite: {
-        //   '^/api': ''
-        // },
-      },
-    }
+  //根据环境配置相关代理
+  // open: false,
+  proxy: {
+    '/': {
+      target: 'https://pc.lifest.dtb315.cn',
+      // changeOrigin: true,
+      // pathRewrite: {
+      //   '^/api': ''
+      // },
+    },
+  }
 
 
 

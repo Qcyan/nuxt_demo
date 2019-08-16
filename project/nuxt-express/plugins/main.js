@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { useAxiosInVue } from '~/use-in-nuxt/axios/index';
 
-new VueRouter({mode:'history'})
+
 
 // import { useMintUi } from '../../../use-in-nuxt/mint-ui/index';
 

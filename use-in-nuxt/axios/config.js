@@ -11,10 +11,10 @@ export default {
   // 跨域是否带Token
   // withCredentials: true,
   // 响应的数据格式 json / blob /document /arraybuffer / text / stream
-  // responseType: 'json',
+  responseType: 'json',
   // XSRF 设置
-  // xsrfCookieName: 'XSRF-TOKEN',
-  // xsrfHeaderName: 'X-XSRF-TOKEN',
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
   // 用于node.js
   // httpAgent: new http.Agent({
   //   keepAlive: true
