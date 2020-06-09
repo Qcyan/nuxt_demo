@@ -31,15 +31,18 @@ module.exports = {
       '/api',{
       // target: 'http://localhost:9000',
       target: 'https://elm-api.caibowen.net',
+      // target: 'https://pc.lifest.dtb315.cn',
       changeOrigin: true,
-      pathRewrite: { '^/api' : '/' }
+      pathRewrite: { 
+        '^/api' : '/' 
+      }
     }
     ]
   ],
 
   build: {
-    vendor: ['axios', 'mint-ui', 'js-cookie'],
-    extend (config, { isDev, isClient }) {
+    vendor: ['axios', 'mint-ui', 'js-cookie'], //防止重复打包
+    extend (config, { isDev, isClient }) { 
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',

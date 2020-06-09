@@ -2,238 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d35b27-3310-4d16-802e-441ab14f0394" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.eslintrc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.idea/nuxt.js.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/styles/base.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/styles/iconfont.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/styles/mixin.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/axios/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/axios/request.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/config/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/layouts/error.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/middleware/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/nuxt.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/pages/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/pages/index.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/plugins/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/plugins/mint-ui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/server/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/static/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/store/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/utils/tool.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/nuxt-app/utils/validate.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/assets/README.md" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/README.md" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/components/Logo.vue" afterPath="$PROJECT_DIR$/project/nuxt-app/components/AppLogo.vue" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/components/wHeader.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/layouts/default.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/middleware/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/nuxt.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/pages/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/pages/list/_id.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/pages/list/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/pages/news/_id.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/pages/news/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/plugins/axios.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/static/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/static/favicon.ico" afterPath="$PROJECT_DIR$/project/nuxt-app/static/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/nuxt_demo/store/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/.editorconfig" afterPath="$PROJECT_DIR$/project/nuxt-app/.editorconfig" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/.eslintrc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/.prettierrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/.gitattributes" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/.gitattributes" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/.gitignore" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/LICENSE" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/README.md" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/README.md" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/config.js" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/config.js" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/gulpfile.js" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/gulpfile.js" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/package.json" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/package.json" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/arrow/arrow-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/arrow/arrow-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/arrow/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/arrow/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/background/background-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/background/background-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/background/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/background/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/border/border-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/border/border-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/border/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/border/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/border.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/border.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/color.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/color.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/extend.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/extend.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/flex.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/flex.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/grid.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/grid.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/prefix.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/prefix.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/config/viewport.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/config/viewport.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/font/font-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/font/font-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/font/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/font/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/form/button/button-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/form/button/button-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/form/button/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/form/button/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/form/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/form/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/form/input/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/form/input/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/function/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/function/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/area.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/area.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/common.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/common.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/display.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/display.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/flex.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/flex.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/float.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/float.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/grid.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/grid.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/list.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/list.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/margin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/margin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/padding.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/padding.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/layout/position.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/layout/position.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/link/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/link/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/link/link-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/link/link-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/main/blue-component.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/main/blue-component.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/normalize/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/normalize/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/table/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/table/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/text/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/text/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/text/text-mixin.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/text/text-mixin.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/blue-component/src/viewport/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/blue-component/src/viewport/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/component.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/component.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/config.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/config.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/index.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/index.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/rem.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/rem.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/assets/css/reset.scss" afterPath="$PROJECT_DIR$/project/nuxt-app/assets/css/reset.scss" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/Logo.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/books/book-item.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/home/action-row.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/home/dropdown.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/home/header.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/home/list-item.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/home/meta-row.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/home/title-row.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/icon.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/components/input.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/layouts/README.md" afterPath="$PROJECT_DIR$/project/nuxt-app/layouts/README.md" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/layouts/default.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/middleware/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/middleware/auth.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/nuxt.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/pages/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/pages/list/_id.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/pages/list/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/pages/news/_id.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/pages/news/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/plugins/element-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/plugins/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/service/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/service/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/static/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/static/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/store/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/store/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/store/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/store/mutations.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/store/state.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/axios/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/axios/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/errcode/errcodes.js" afterPath="$PROJECT_DIR$/project/nuxt-app/axios/errcodes.js" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/errcode/index.js" afterPath="$PROJECT_DIR$/project/nuxt-app/axios/errhandle.js" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/mint-ui/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/mint-ui/indicator/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/mint-ui/toast/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/utils/dom/clickoutside.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-express/utils/dom/dom.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-ssr-demo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/README.md" afterPath="$PROJECT_DIR$/project/nuxt-app/README.md" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/.gitattributes" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/arrow/arrow-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/arrow/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/background/background-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/background/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/border/border-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/border/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/border.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/color.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/extend.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/flex.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/prefix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/config/viewport.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/font/font-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/font/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/form/button/button-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/form/button/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/form/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/form/input/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/function/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/area.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/common.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/display.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/flex.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/list.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/margin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/padding.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/layout/position.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/link/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/link/link-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/main/blue-component.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/normalize/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/table/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/text/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/text/text-mixin.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/blue-component/src/viewport/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/component.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/config.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/index.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/rem.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/assets/css/reset.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/components/Logo.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/components/README.md" afterPath="$PROJECT_DIR$/project/nuxt-app/components/README.md" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/layouts/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/layouts/default.vue" afterPath="$PROJECT_DIR$/project/nuxt-app/layouts/default.vue" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/middleware/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/list/_id.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/list/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/news/_id.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/pages/news/index.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/plugins/element-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/static/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/static/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/store/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/axios/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/axios/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/errcode/errcodes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/errcode/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/mint-ui/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/mint-ui/indicator/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/nuxt-tmpl/use-in-nuxt/mint-ui/toast/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/axios/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/axios/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/errcode/errcodes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/errcode/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/mint-ui/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/mint-ui/indicator/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/use-in-nuxt/mint-ui/toast/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/nuxt-app/server/index.js" afterPath="$PROJECT_DIR$/project/nuxt-app/server/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -249,26 +19,14 @@
     <favorites_list name="nuxt_demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.78731346">
+    <splitter split-orientation="horizontal" split-proportion="0.64786583">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="482">
-                  <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="mint-ui.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/project/nuxt-app/plugins/mint-ui.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+                <state relative-caret-position="87">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
                   </folding>
@@ -276,11 +34,53 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/pages/index.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1247">
+                  <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+                  <folding>
+                    <marker date="1591669600215" expanded="true" signature="904:935" ph="//..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/project/nuxt-app/server/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+                <state relative-caret-position="203">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="axios.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/.nuxt/axios.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3944">
+                  <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/layouts/default.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="348">
+                  <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/nuxt.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="406">
+                  <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -289,49 +89,43 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/project/nuxt-app/config/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <state relative-caret-position="348">
+                  <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-express/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="348">
+                  <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/project/nuxt-app/README.md">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="319">
+                  <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project/nuxt-app/dist/index.html">
+          <file leaf-file-name="request.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/request.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Desktop/default.conf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-                  <folding />
+                <state relative-caret-position="203">
+                  <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -339,32 +133,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project/nuxt-app/package.json">
+        <leaf>
+          <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/project/nuxt-app/nuxt.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="error.vue" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/project/nuxt-app/layouts/error.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project/nuxt-app/pages/index.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="792">
-                  <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+                <state relative-caret-position="406">
+                  <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -379,7 +153,6 @@
       <find>alias</find>
       <find>resolve</find>
       <find>nuxt/App.js</find>
-      <find>consola</find>
       <find>axios</find>
       <find>service</find>
       <find>closeLoading</find>
@@ -400,6 +173,9 @@
       <find>env</find>
       <find>BASE_URL</find>
       <find>login</find>
+      <find>consola</find>
+      <find>baseU</find>
+      <find>port</find>
     </findStrings>
     <dirStrings>
       <dir>F:\qiushiqing\newProject_\nuxt_demo\nuxt_demo\plugins</dir>
@@ -459,12 +235,12 @@
         <option value="$PROJECT_DIR$/project/nuxt-app/config/index.js" />
         <option value="$PROJECT_DIR$/project/nuxt-app/package.json" />
         <option value="$PROJECT_DIR$/project/nuxt-app/assets/utils/request.js" />
-        <option value="$PROJECT_DIR$/project/nuxt-app/server/index.js" />
         <option value="$PROJECT_DIR$/project/nuxt-app/assets/services/common.js" />
-        <option value="$PROJECT_DIR$/project/nuxt-app/nuxt.config.js" />
         <option value="$PROJECT_DIR$/project/nuxt-app/axios/index.js" />
-        <option value="$PROJECT_DIR$/project/nuxt-app/pages/index.vue" />
         <option value="$USER_HOME$/Desktop/default.conf" />
+        <option value="$PROJECT_DIR$/project/nuxt-app/pages/index.vue" />
+        <option value="$PROJECT_DIR$/project/nuxt-app/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/project/nuxt-app/server/index.js" />
       </list>
     </option>
   </component>
@@ -483,11 +259,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-29" />
-    <option name="y" value="32" />
-    <option name="width" value="1248" />
-    <option name="height" value="737" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="38" />
+    <option name="y" value="73" />
+    <option name="width" value="1566" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -504,8 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -521,18 +295,42 @@
             <path>
               <item name="nuxt_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="nuxt_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="use-in-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="nuxt-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuxt_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuxt_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="nuxt-app" type="462c0819:PsiDirectoryNode" />
+              <item name="axios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuxt_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuxt_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="nuxt-app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuxt_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuxt_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="nuxt-app" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../base-react" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -610,8 +408,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="npm.build" />
-        <item index="1" class="java.lang.String" itemvalue="npm.dev (1)" />
+        <item index="0" class="java.lang.String" itemvalue="npm.dev (1)" />
+        <item index="1" class="java.lang.String" itemvalue="npm.build" />
         <item index="2" class="java.lang.String" itemvalue="npm.dev (3)" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.main.js" />
         <item index="4" class="java.lang.String" itemvalue="npm.dev" />
@@ -641,26 +439,40 @@
       <workItem from="1582014179684" duration="187000" />
       <workItem from="1582014472146" duration="9495000" />
       <workItem from="1582882914362" duration="450000" />
+      <workItem from="1583128522203" duration="2259000" />
+      <workItem from="1583234604837" duration="598000" />
+      <workItem from="1583288159522" duration="1220000" />
+      <workItem from="1583374179925" duration="111000" />
+      <workItem from="1591003573824" duration="1699000" />
+      <workItem from="1591063729907" duration="5747000" />
+      <workItem from="1591146094682" duration="604000" />
+      <workItem from="1591186500418" duration="758000" />
+      <workItem from="1591236229562" duration="599000" />
+      <workItem from="1591318898678" duration="599000" />
+      <workItem from="1591404900193" duration="584000" />
+      <workItem from="1591580048079" duration="5488000" />
+      <workItem from="1591664504536" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85323000" />
+    <option name="totallyTimeSpent" value="108855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="38" y="73" width="1566" height="1011" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18154761" sideWeight="0.42618385" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16884817" sideWeight="0.40063593" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63486844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20238096" sideWeight="0.5738162" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15445027" sideWeight="0.59936404" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29411766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24949153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34539473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4781065" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30614525" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20238096" sideWeight="0.5720339" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4781065" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -676,11 +488,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40953946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21340781" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20238096" sideWeight="0.5720339" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34539473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20238096" sideWeight="0.4279661" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14646997" sideWeight="0.58928573" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30614525" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19437173" sideWeight="0.4107143" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -706,8 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/nuxt.config.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/layouts/default.vue" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-tmpl/plugins/main.js" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/axios/index.js" />
@@ -718,7 +528,6 @@
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/use-in-nuxt/mint-ui/index.js" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/pages/index.vue" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/components/home/header.vue" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-express/package.json" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/plugins/main.js" />
     <entry file="file://$PROJECT_DIR$/project/nuxt-express/nuxt.config.js" />
     <entry file="file://$PROJECT_DIR$/use-in-nuxt/mint-ui/index.js" />
@@ -773,120 +582,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/server/index.js">
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/services/common.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/plugins/main.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/utils/request.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/services/api.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/config.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/services/user.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/utils/tool.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/utils/validate.js" />
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/layouts/error.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="29">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/services/common.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/plugins/main.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/plugins/mint-ui.js">
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/dist/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/default.conf" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/plugins/mint-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <marker date="1591669600215" expanded="true" signature="904:935" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/.nuxt/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3944">
+          <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="203">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/nuxt-app/nuxt.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/utils/request.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/services/api.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/config.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/services/user.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/utils/tool.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/assets/utils/validate.js" />
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/layouts/error.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="406">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/nuxt-app/axios/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="319">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/nuxt-express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/nuxt-app/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/layouts/default.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/nuxt-app/README.md">
+    <entry file="file://$PROJECT_DIR$/project/nuxt-app/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -7,15 +7,11 @@ const { Nuxt, Builder } = require('nuxt')
 const PROXY_URL = 'http://elm-api.caibowen.net'; // 反向代理域名，生产
 
 const app = express()
+const host = process.env.HOST || '127.0.0.1';
 const port = process.env.PORT || 3000;
 
-console.log(process.env.PORT)
 
 app.set('port', port)
-
-// Import and Set Nuxt.js options
-let config = require('../nuxt.config.js')
-config.dev = !(process.env.NODE_ENV === 'production')
 
 //nuxt.config.js 配置反向代理
 app.use('/api')
@@ -24,22 +20,32 @@ app.use('/api')
 // app.use('/api', proxy(PROXY_URL));
 
 async function start() {
-  // Init Nuxt.js
-  const nuxt = new Nuxt(config)
+  // Import and Set Nuxt.js options
+  let config = require('../nuxt.config.js')
+  config.dev = !(process.env.NODE_ENV === 'production')
 
-  // Build only in dev mode
-  if (config.dev) {
-    const builder = new Builder(nuxt)
-    await builder.build()
-  }
+  // Init Nuxt.js
+  const nuxt = await new Nuxt(config)
 
   // Give nuxt middleware to express
   app.use(nuxt.render)
 
+  // Build only in dev mode
+  if (config.dev) {
+    try{   
+      const builder = new Builder(nuxt)
+      await builder.build()
+    }catch{
+      console.error(error) // eslint-disable-line no-console
+      process.exit(1)
+    }
+
+  }
+
   // Listen the server
-  app.listen(port)
+  app.listen(port,host)
   consola.ready({
-    message: `Server listening on http://localhost:${port}`,
+    message: `Server listening on ${host} : http://localhost:${port}`,
     badge: true
   })
 }

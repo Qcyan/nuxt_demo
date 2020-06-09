@@ -1,7 +1,9 @@
 export default {
   IS_RELEASE: false, // true线上，false测试
 
-  BASE_URL: 'http://localhost:3000/api', // 测试
+  BASE_URL:`http://${process.env.HOST || 'localhost'}:${process.env.PORT || 3000}/api`,
+
+  // BASE_URL: 'http://localhost:3000/api', // 测试
 
   // BASE_URL: '//elm.caibowen.net/api', // 生产
 
