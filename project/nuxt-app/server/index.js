@@ -1,3 +1,4 @@
+//搭建后台，调用自己的接口时使用，调用外部接口可以不用
 const express = require('express')
 const consola = require('consola')
 const proxy = require('express-http-proxy')

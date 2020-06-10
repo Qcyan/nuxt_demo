@@ -2,9 +2,18 @@ import axios from 'axios';
 import config from '~/config';
 import { Toast } from 'mint-ui';
 
-axios.defaults.baseURL = config.BASE_URL;
-axios.defaults.timeout = config.TIMEOUT;
-axios.defaults.headers = config.HEADERS;
+let baseURL;
+if(process.server){
+  baseURL: config.BASE_URL
+};
+let options = {
+  baseURL: baseURL,
+  timeout: config.TIMEOUT,
+  headers: config.HEADERS
+}
+
+export const $Axios = axios.create(options);
+
 
 // 请求拦截器
 axios.interceptors.request.use( request => {
@@ -53,3 +62,5 @@ export default async (options = { method: 'GET' }) => {
   }
 
 };
+
+

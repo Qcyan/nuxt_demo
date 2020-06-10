@@ -15,6 +15,12 @@
   "resolutions": {
     "@vue/cli-service/portfinder": "1.0.21"
   },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "3108"
+    }
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "mint-ui": "^2.2.13",

@@ -28,19 +28,26 @@
 
 <script>
   import config from "~/config";
-
+  import { $Axios } from '~/axios/request.js'   // 引用axios
   export default {
     data(){
       return {
         navList:[]
       }
     },
-    async asyncData() {
 
-    },
+
+    asyncData({ req, params }) {
+        $Axios({
+					url:'/api/banner/index',
+				}).then((res)=>{
+          console.log(res)
+        })
+    },
     methods:{
       async getData(){
-        const res =  await this.$request.get(`/common/getHomeData`);
+        const res =  await this.$request.get(`http://nodet.cn:3005/api/courselist?offset=0&limit=15&type=1&sort=1&courseId=15963587&selectScreenStr=
+`);
         res.data.map(item => {
           item.imgUrl = config.IMG_URL + item.imgUrl;
         });
@@ -48,7 +55,7 @@
       }
     },
     mounted(){
-      this.getData();
+      // this.getData();
     }
   }
 </script>
