@@ -9,6 +9,9 @@
         @click="$router.push('/search')"/>
     </mt-header>
 
+    <h2>requestBanner</h2>
+    <img :src="requestBanner" alt="">
+
     <nav class="nav-container">
       <div
         v-for="(item, index) in navList"
@@ -29,25 +32,26 @@
 <script>
   import config from "~/config";
   import { $Axios } from '~/axios/request.js'   // 引用axios
+//  import utils from 'cyan-utils'
   export default {
     data(){
       return {
-        navList:[]
+        navList:[],
       }
     },
+    async asyncData({ req, params }) {
+      let res = await $Axios({ url:'/api/banner/index' });
+      console.log(res)
+      const {banner} = res.data.data;
+//      console.log(utils)
+      return  {
+        requestBanner:banner[0].src_img
+      }
 
-
-    asyncData({ req, params }) {
-        $Axios({
-					url:'/api/banner/index',
-				}).then((res)=>{
-          console.log(res)
-        })
     },
     methods:{
       async getData(){
-        const res =  await this.$request.get(`http://nodet.cn:3005/api/courselist?offset=0&limit=15&type=1&sort=1&courseId=15963587&selectScreenStr=
-`);
+        const res =  await this.$request.get(`http://nodet.cn:3005/api/courselist?offset=0&limit=15&type=1&sort=1&courseId=15963587&selectScreenStr=`);
         res.data.map(item => {
           item.imgUrl = config.IMG_URL + item.imgUrl;
         });
