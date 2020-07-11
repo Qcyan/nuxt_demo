@@ -34,6 +34,7 @@
   import config from "~/config";
   import cyanUtils from 'cyan-utils'
   import { $Axios } from '~/axios/request.js'   // 引用axios
+//  import utils from 'cyan-utils'
   export default {
     data(){
       return {
@@ -51,7 +52,6 @@
             banner
           }
         })
-
     },
     methods:{
       doRequest(){
