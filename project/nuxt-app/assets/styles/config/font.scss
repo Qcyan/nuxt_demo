@@ -1,0 +1,42 @@
+/*加粗*/
+.#{$prefix-name}f-b {
+  font-weight: bold;
+}
+
+//rem
+@function rem($px, $base-font-size: 46.875) {
+  @return #{($px / $base-font-size) * 1 + 'rem'};
+}
+
+//rem 字体大小 12px -> 50px 的 rem
+@for $i from 24 through 100 {
+  .#{$prefix-name}f-#{$i}re {
+    font-size: rem($i)
+  }
+}
+
+//vw
+//$vw_base: 375;
+//@function vw($px) {
+//  @return #{($px / $vw_base) * 100 + 'vw'};
+//}
+
+$vw_fontsize: 75; // iPhone 6尺寸的根元素大小基准值
+$vw_design: 750;
+html {
+  //font-size: ($vw_fontsize / ($vw_design / 2)) * 100vw;
+  //// 同时，通过Media Queries 限制根元素最大最小值
+  //@media screen and (max-width: 320px) {
+  //  font-size: 64px;
+  //}
+  //@media screen and (min-width: 540px) {
+  //  font-size: 108px;
+  //}
+}
+
+// body 也增加最大最小宽度限制，避免默认100%宽度的 block 元素跟随 body 而过大过小
+body {
+  max-width: 540px;
+  min-width: 320px;
+}
+

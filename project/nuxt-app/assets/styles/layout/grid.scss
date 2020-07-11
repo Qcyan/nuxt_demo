@@ -1,11 +1,3 @@
-//%百分比宽度
-@for $i from 1 through 100 {
-  .#{$prefix-name}w-#{$i} {
-    width: #{$i + '%'};
-    @extend %border-box;
-  }
-}
-
 //行
 .#{$prefix-name}row {
 	width: 100%;

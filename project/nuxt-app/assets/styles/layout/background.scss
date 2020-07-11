@@ -1,0 +1,9 @@
+@mixin background($name,$color) {
+  .#{$prefix-name}bg-#{$name} {
+    background-color: #{$color};
+  }
+}
+
+@each $name,$color in $color-group{
+  @include background($name,$color);
+}

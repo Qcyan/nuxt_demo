@@ -9,17 +9,20 @@
         @click="$router.push('/search')"/>
     </mt-header>
 
+    <img class="cy-flex" width="100%" :src='"https://pc.lifest.dtb315.cn"+banner[0].src_img' alt="">
+
+
+
     <nav class="nav-container">
-      <div
-        v-for="(item, index) in navList"
-        :key="index"
-        class="nav-item"
-        @click="$router.push({path:'/newretail', query:{ title: item.text }})">
-        <img
-          :src="item.imgUrl"
-          alt="">
-        {{ item.text }}
-      </div>
+      <ul>
+        <li
+          v-for="(item, index) in list"
+          :key="index"
+          class="cy-f-40re"
+        >
+          {{ item.author }}
+        </li>
+      </ul>
     </nav>
 
   </div>
@@ -27,27 +30,40 @@
 
 
 <script>
+  import axios from 'axios'
   import config from "~/config";
+  import cyanUtils from 'cyan-utils'
   import { $Axios } from '~/axios/request.js'   // 引用axios
   export default {
     data(){
       return {
-        navList:[]
+        navList:[],
+        list:[]
       }
     },
-
-
     asyncData({ req, params }) {
-        $Axios({
+        return $Axios({
 					url:'/api/banner/index',
 				}).then((res)=>{
-          console.log(res)
+//          console.log(res)
+          let banner = res.data.data.banner;
+          return {
+            banner
+          }
         })
-    },
+
+    },
     methods:{
+      doRequest(){
+        return $Axios({
+          url:'/demo/test',
+        }).then((res)=>{
+          this.list = res.data.list;
+          console.log(res.data.list)
+        })
+      },
       async getData(){
-        const res =  await this.$request.get(`http://nodet.cn:3005/api/courselist?offset=0&limit=15&type=1&sort=1&courseId=15963587&selectScreenStr=
-`);
+        const res =  await this.$Axios.get(`http://nodet.cn:3005/api/courselist?offset=0&limit=15&type=1&sort=1&courseId=15963587&selectScreenStr=`);
         res.data.map(item => {
           item.imgUrl = config.IMG_URL + item.imgUrl;
         });
@@ -55,63 +71,22 @@
       }
     },
     mounted(){
+
+//      console.log(cyanUtils)
       // this.getData();
+       this.doRequest();
     }
   }
 </script>
 
 
 <style lang="scss">
-  @import "../assets/styles/mixin";
-
-  .home-page {
-    background-color: #fff;
-    padding: px2rem(88px) 0 53px 0;
-
-    .nav-container {
-      @include fj();
-      flex-wrap: wrap;
-      margin-bottom: px2rem(30px);
-
-      .nav-item {
-        @include wh(20%, 80px);
-        text-align: center;
-        color: #666;
-        font-size: px2rem(24px);
-        padding-top: px2rem(10px);
-
-        img {
-          display: block;
-          margin: 0 auto;
-          @include wh(50px, 50px);
-        }
-      }
-    }
-
-    .swiper {
-      padding: 0 0.4rem;
-    }
-
-    .shoplist-title {
-      @include fj(center);
-      font-size: px2rem(30px);
-      margin-bottom: px2rem(20px);
-    }
-
-    .show-list {
-      padding: 0 0.4rem;
-
-      a {
-        display: inline-block;
-        width: 49%;
-        height: auto;
-        float: left;
-
-        &:nth-last-of-type(1) {
-          float: right;
-        }
-      }
-    }
+  @import "../assets/styles/base";
+  .list{
+    /*font-size:rem(40)*/
+    /*@include sc(40px,'pink')*/
   }
+
+
 
 </style>

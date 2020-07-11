@@ -1,7 +1,7 @@
 module.exports = {
   mode: 'spa',
   head: {
-    title: '饿了么ccc',
+    title: '香飘飘',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' },
@@ -13,10 +13,17 @@ module.exports = {
     link: [
       { rel: 'SHORTCUT ICON', type: 'image/x-icon', href: '/favicon.ico' }
     ],
+    // html head 中创建 script 标签
     script: [
       { src: 'https://easytuan.gitee.io/node-elm-api/public/flexible.js' },
+      // { innerHTML: require('./assets/js/flexible_nuxt'), type: 'text/javascript', charset: 'utf-8'}
+      // { innerHTML: 'console.log("hello")', type: 'text/javascript', charset: 'utf-8'}
     ],
+    // 不对<script>标签中内容做转义处理
+    __dangerouslyDisableSanitizers: ['script']
   },
+  // Global CSS
+  css: ['~/assets/styles/base.scss'],
 
   loading: { color: '#3B8070' },
 
@@ -26,21 +33,32 @@ module.exports = {
     '@nuxtjs/axios',
      '@nuxtjs/proxy'
   ],
+//  axios:{
+//    prefix:'https://pc.lifest.dtb315.cn',
+//    proxy:true
+//  },
   proxy: [
     [
       '/api',{
-      // target: 'http://localhost:9000',
-      target: 'https://pc.lifest.dtb315.cn',
-      changeOrigin: true,
-      // pathRewrite: { 
-      //   '^/api' : '' 
-      // }
-    }
+        // target: 'http://localhost:9000',
+        target: 'https://pc.lifest.dtb315.cn',
+        changeOrigin: true,
+        // pathRewrite: {
+        //   '^/api' : ''
+        // }
+      }
     ]
   ],
-
+  env: {
+    ENV: process.env.ENV
+  },
   build: {
     vendor: ['axios', 'mint-ui', 'js-cookie'], //防止重复打包
+    postcss: [
+//      require('postcss-px2rem')({
+//        remUnit: 75
+//      })
+    ],
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
@@ -55,8 +73,9 @@ module.exports = {
 
   plugins: [
     { src: '~plugins/mint-ui' },
-    { src: '~/axios/index.js', ssr: false }
-
+//    { src: '~/plugins/axios', ssr: false },
+    { src: '~/axios/index', ssr: false },
+    { src: '~/mock/index.js', ssr: false }
   ],
 }
 

@@ -1,5 +1,8 @@
 @import 'mixin';
 @import 'iconfont';
+@import './config/index';
+@import './layout/index';
+
 
 * {
   word-break: break-all;
@@ -49,7 +52,11 @@ html {
   background-color: $fill-base;
 }
 
+
 img {
   display: block;
   max-width: 100%;
 }
+
+
+

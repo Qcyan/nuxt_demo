@@ -17,6 +17,7 @@ export const $Axios = axios.create(options);
 
 // 请求拦截器
 axios.interceptors.request.use( request => {
+  debugger;
   if (!config.IS_RELEASE) {
     console.log(
       `${new Date().toLocaleString()}【 M=${request.url} 】P=`,
