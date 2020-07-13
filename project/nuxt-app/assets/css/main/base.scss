@@ -1,0 +1,25 @@
+@import 'mixin';
+@import 'iconfont';
+@import '../config/index';
+@import '../layout/index';
+
+@media screen and (min-width: 500px) {
+
+  body,
+  .mint-tabbar,
+  .mint-header {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+
+
+
+
+
+
+
+
+

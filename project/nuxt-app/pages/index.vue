@@ -18,9 +18,9 @@
         <li
           v-for="(item, index) in list"
           :key="index"
-          class="cy-f-40re"
+          class="cy-f-40re cy-bg-e5e cy-bd-b-base cy-f-b"
         >
-          {{ item.author }}
+          {{ item.author }} {{userInfo.name}}
         </li>
       </ul>
     </nav>
@@ -33,8 +33,11 @@
   import axios from 'axios'
   import config from "~/config";
   import cyanUtils from 'cyan-utils'
+
+  import {mapState}from 'vuex'
+
   import { $Axios } from '~/axios/request.js'   // 引用axios
-//  import utils from 'cyan-utils'
+
   export default {
     data(){
       return {
@@ -42,7 +45,13 @@
         list:[]
       }
     },
+    async fetch ({ app, store, params }) {
+      console.log(store)
+//      let { data } = app.$axios.get('/token');
+//      store.commit('setToken', data.token);
+    },
     asyncData({ req, params }) {
+        //这里面还拿不到vue实例，用不了this
         return $Axios({
 					url:'/api/banner/index',
 				}).then((res)=>{
@@ -55,33 +64,32 @@
     },
     methods:{
       doRequest(){
-        return $Axios({
+        //mock方法，没有实际请求
+        return this.$axios({
           url:'/demo/test',
         }).then((res)=>{
           this.list = res.data.list;
-          console.log(res.data.list)
+//          console.log(res.data.list)
         })
       },
-      async getData(){
-        const res =  await this.$Axios.get(`http://nodet.cn:3005/api/courselist?offset=0&limit=15&type=1&sort=1&courseId=15963587&selectScreenStr=`);
-        res.data.map(item => {
-          item.imgUrl = config.IMG_URL + item.imgUrl;
-        });
-        this.navList = res.data
-      }
+    },
+    computed: {
+      ...mapState(['userInfo'])
     },
     mounted(){
 
 //      console.log(cyanUtils)
-      // this.getData();
        this.doRequest();
     }
   }
 </script>
 
 
-<style lang="scss">
-  @import "../assets/styles/base";
+<style scoped lang="scss">
+  /*@import '~/assets/css/main/base.scss';*/
+  .nav-container{
+    width:rem(400)
+  }
   .list{
     /*font-size:rem(40)*/
     /*@include sc(40px,'pink')*/

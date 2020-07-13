@@ -50,6 +50,9 @@ export function useAxiosInVue(Vue, opts = {}) {
   Vue.prototype.$axios = $Axios;
 }
 
+//axios
+useAxiosInVue(Vue);
+
 //拦截request
 requestInterceptors();
 
@@ -58,7 +61,6 @@ responseInterceptors();
 
 function requestInterceptors(){
   $Axios.interceptors.request.use((axiosConfig) => {
-    console.log(99999)
     const isLoading = axiosConfig.isLoading;
     //是否loading显示
     if (isLoading === undefined || isLoading === true) {

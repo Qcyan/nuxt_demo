@@ -20,10 +20,12 @@ module.exports = {
       // { innerHTML: 'console.log("hello")', type: 'text/javascript', charset: 'utf-8'}
     ],
     // 不对<script>标签中内容做转义处理
-    __dangerouslyDisableSanitizers: ['script']
+    //__dangerouslyDisableSanitizers: ['script']
   },
   // Global CSS
-  css: ['~/assets/styles/base.scss'],
+  css: [
+    {src:'~/assets/css/main/base.scss',lang:'scss'}
+    ],
 
   loading: { color: '#3B8070' },
 
@@ -31,8 +33,12 @@ module.exports = {
 
   modules: [
     '@nuxtjs/axios',
-     '@nuxtjs/proxy'
+     '@nuxtjs/proxy',
+    '@nuxtjs/style-resources'  //解决sass变量不能再页面中直接使用
   ],
+  styleResources: {
+    scss: '~/assets/css/main/base.scss'
+  },
 //  axios:{
 //    prefix:'https://pc.lifest.dtb315.cn',
 //    proxy:true
